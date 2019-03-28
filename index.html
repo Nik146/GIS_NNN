@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <header class="mainH">
+    <h1>Лабораторная работа по изучению работы ГИС систем</h1>
+    </header>
+
+</head>
+
+<body>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="initial-scale=1.0">
+
+    <table width="100%" border="0" cellspacing="0" height="80%">
+
+        <tr width='80%'>
+            <td width='80%' id="map" height="500" width="500" style="vertical-align:top"></td>
+            <td>
+                <table border="0" cellspacing="0" height="80%">
+                <td align='center' width='20%'>
+
+                <p>Выберите категорию маркеров:</p>
+                <select id="selector">
+                <option>Магазин</option>
+                <option>Кафе</option>
+                <option>Больница</option>
+                <option>Детский сад</option>
+                <option>Школа</option>
+                <option>Остановка</option>
+                <option>Достопримечательность</option>
+                <option>Супермаркет</option>
+                <option>Госпиталь</option>
+                <option>Парикмахерская</option>
+                <option>Аптека</option>
+                <option>Торговый центр</option>
+                <option>Ресторан</option>
+                <option>Банк</option>
+                <option>Банкомат</option>
+                <option>АЗС</option>
+
+                </select>		<br>
+
+                <p><input type="button" value="Показать объекты" onclick="        setLabel()"></p>
+
+                <label align='center' id="output_label">Статус запроса</label>
+
+                <tr id='text_output' align='l'></tr>
+                </table>
+            </td>
+            </td>
+
+        </tr>
+    </table>
+
+    <div id="text_output" width='100%' align='center'></div>
+
+    <script src="scripts.js" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=KEY=initMap&libraries=geometry"
+    async defer></script>
+
+    <footer>
+        Nikita Nikitin<br /> АСУ1-17-1м
+    </footer>
+</body>
+</html>

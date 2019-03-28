@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: Archive;
+    src: url(./fonts/Archive.ttf); 
+}
+
+html
+{
+	height: 100%; 
+	margin: 0; 
+	width: 1300px;
+	padding: 0; 
+}
+
+body
+{
+	height: 100%; 
+	width: 1200px;
+	margin: auto;
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-position: 0px 0px;
+}
+
+p
+{
+	margin: 5px;
+	font-size: 17px;
+	font-family: "Segoe UI";
+	text-align: Center;
+}
+
+table
+{
+	background-color: #F5F5DC;
+}
+td
+{
+	margin: 5px;
+	font-size: 17px;
+	font-family: "Segoe UI";
+}
+
+
+input {
+	margin: 5px;
+	font-size: 17px;
+}
+
+select {
+	margin: 5px;
+	font-size: 17px;
+	font-family: "Segoe UI";
+	text-align: Center;
+}
+
+label {
+	margin: 5px;
+	font-size: 15px;
+	font-family: "Segoe UI";
+	text-align: Center;
+}
+
+.mainH
+{
+	font-family: "Segoe UI";
+	border-radius: 40px 40px 0px 0px;
+	background-color: #87CEEB; 			
+	font-size: 10px;
+	box-shadow: 3px 3px 10px #999999;
+	padding: 1px;
+	border-color: #FFA100;
+	border-width: 3px;
+	color: #000000;
+}
+
+header > h1
+{
+	font-family: "Segoe UI";
+	text-align: center;
+	padding: 1px;
+}
+
+footer
+{
+	font-family: "Segoe UI";
+	color: black;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: underline;
+	border-radius: 0px 0px 20px 20px;
+	background-color: #87CEEB;				
+	padding: 1px;
+	box-shadow: 3px 3px 10px #999999;
+}
+
+#bLabel
+{
+	float: left;
+	width: 200px;
+}
+
+#bInput
+{
+	float:left;
+	width: 500px;
+}
+
+#map { 
+height: 70%; 
+}
+
+.block
+{
+	height:25px;
+}
